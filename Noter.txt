@@ -1,0 +1,44 @@
+Brug MVC pattern til at lave dette program
+
+---------------- DESIGN ---------------- (https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm) 
+KOMPONENTER:
+VIEW:
+UI_Render (Det som brugeren interager med.. ikke plottede ting)
+Plot_Render (tegner ting til skærmen)
+Eventhandler (giver besked til Logik klassen når brugern foretager sig noget)
+
+MODEL:
+Models (Componenter til graf programment)
+Drawing_Logic (fortæller hvordan ting skal tegnes.. e,g funktioner, knapper, vinkler...)
+UI_components (Vinduer, input linje...)
+
+CONTROLLER:
+Logik (Håndter brugerinputs og fejlmeddelelser)
+Update_Components (Opdaterer instantierede komponenter så de renders korrekt)
+Handle_UI_Components (Bestemmer om menuer skal udfoldes.. højreklik, venstreklik, enter etc)
+
+---------------- FEATURES ----------------
+2D og 3D grafer
+differentialligninger
+polær koordinatsystem
+komplekse koordinatsystemer
+integration og differentiering 
+
+VERSION 2.0 FEATURES:
+indlæs data fra excel
+eksporter grafer som figurer
+
+---------------- LITTERATUR ----------------
+Plotte grafer
+https://blog.demofox.org/2015/01/17/bresenhams-drawing-algorithms/
+
+Design patterns litteratur to read:
+https://martinfowler.com/eaaDev/uiArchs.html - GUI Architectures
+
+https://www.martinfowler.com/eaaDev/uiArchs.html#ModelViewController - MVC PATTERN
+
+http://ceur-ws.org/Vol-610/paper11.pdf - Developing GUI Applications: Architectural Patterns Revisited
+
+https://stackoverflow.com/questions/9419147/which-software-design-patterns-do-common-gui-frameworks-exhibit - Stack overflow tråd om Design patterns til GUI applications
+
+Design Patterns (bog)
