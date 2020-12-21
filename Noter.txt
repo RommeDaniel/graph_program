@@ -1,21 +1,22 @@
 Brug MVC pattern til at lave dette program
 
----------------- DESIGN ---------------- (https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm) 
+---------------- DESIGN ---------------- (http://ceur-ws.org/Vol-610/paper11.pdf) 
 KOMPONENTER:
 VIEW:
 UI_Render (Det som brugeren interager med.. ikke plottede ting)
-Plot_Render (tegner ting til skærmen)
-Eventhandler (giver besked til Logik klassen når brugern foretager sig noget)
+Plot_Render (tegner models til skærmen, e.g funktioner og grafer)
+Eventhandler (giver besked til Controller komponentet når brugern foretager sig noget)
 
 MODEL:
 Models (Componenter til graf programment)
 Drawing_Logic (fortæller hvordan ting skal tegnes.. e,g funktioner, knapper, vinkler...)
 UI_components (Vinduer, input linje...)
-
-CONTROLLER:
-Logik (Håndter brugerinputs og fejlmeddelelser)
 Update_Components (Opdaterer instantierede komponenter så de renders korrekt)
 Handle_UI_Components (Bestemmer om menuer skal udfoldes.. højreklik, venstreklik, enter etc)
+
+CONTROLLER:
+Logik (Håndter brugerinputs)
+
 
 ---------------- FEATURES ----------------
 2D og 3D grafer
