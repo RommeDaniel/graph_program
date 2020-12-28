@@ -1,4 +1,5 @@
 Brug MVC pattern til at lave dette program
+Udivkle Til Windows, Linux og Mac sideløbbende
 
 ---------------- DESIGN ---------------- (http://ceur-ws.org/Vol-610/paper11.pdf) 
 KOMPONENTER:
@@ -23,11 +24,20 @@ Logik (Håndter brugerinputs)
 differentialligninger
 polær koordinatsystem
 komplekse koordinatsystemer
-integration og differentiering 
+integration og differentiering
+Vektorer 
 
 VERSION 2.0 FEATURES:
 indlæs data fra excel
 eksporter grafer som figurer
+
+
+---------------- VERSION 1.0 ----------------
+plot 2D grafer og få simpel UI op at køre på alle 3 systemer.
+skæringspunkter, punkter, vinkler imellem linjer, toppunkt af parabel
+intervaller, lokal max og min (Se geogebra / graph for mere inspiration)
+
+
 
 ---------------- LITTERATUR ----------------
 Plotte grafer
@@ -42,4 +52,15 @@ http://ceur-ws.org/Vol-610/paper11.pdf - Developing GUI Applications: Architectu
 
 https://stackoverflow.com/questions/9419147/which-software-design-patterns-do-common-gui-frameworks-exhibit - Stack overflow tråd om Design patterns til GUI applications
 
+https://www.backblaze.com/blog/10-rules-for-how-to-write-cross-platform-code/ (10 rules for writing cross platform code)
+
 Design Patterns (bog)
+
+Cross-platform Development in C++ by Syd Logan (bog)
+
+https://docs.wxwidgets.org/trunk/index.html (c++ front end værktøj)
+	- Brug OpenGL til render
+	- Brug wxwidgets til GUI (skal nok tweakes når det portes til mac og linux)
+	- Brug IKKE SDL (tænker får ikke brug for dens features, da 99% kun er beregn grafer, plotte og vis til bruger)
+
+
