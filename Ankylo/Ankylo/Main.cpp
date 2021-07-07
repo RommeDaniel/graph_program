@@ -1,4 +1,4 @@
-/*This project follow the naming convention outlined by this guide: 
+/*This project follow the naming convention outlined by this guide:
 http://manual.gromacs.org/documentation/5.1-current/dev-manual/naming.html#:~:text=would%20be%20better.-,C%2B%2B%20code,variables)%20with%20a%20lowercase%20letter.
 
 wxWidgets tutorial: https://www.wxwidgets.org/docs/tutorials/
